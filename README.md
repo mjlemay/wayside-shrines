@@ -1,10 +1,8 @@
 # Wayside Shrines
 
-A ready-to-use starting point for creating Hytale server plugins with Java, _or Kotlin_. If you've
-been using the Asset Editor and want to start writing server-side logic — custom commands, event
-handling, gameplay systems — this is the simplest place to begin.
+A puzzle experience built around trigger volumes as the core mechanic.
 
-CHECK OUT THESE COOL TOOLS THAT I AM USING!! 
+## CHECK OUT THESE COOL TOOLS THAT I AM USING!!
 - [Hytale Plugin Template](https://github.com/HytaleModding/plugin-template)
 - [Hytale Gradle Plugin](https://github.com/AzureDoom/Hytale-Gradle-Plugin),
 

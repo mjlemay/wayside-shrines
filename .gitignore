@@ -9,3 +9,6 @@ run/
 .classpath
 .project
 .settings/
+.vscode/
+.DS_Store
+
