@@ -2,7 +2,7 @@
     "Group": "Mertie",
     "Name": "wayside_shrines",
     "Version": "0.0.1",
-    "Description": "A puzzle experience built around trigger volumes as the core mechanic.",
+    "Description": "Little shrines to help you on your travels.",
     "Authors": [
         {
             "Name": "Mertie",
@@ -10,7 +10,7 @@
             "Url": "https://thinklikemike.com"
         }
     ],
-    "Website": "hhttps://github.com/mjlemay/wayside-shrines",
+    "Website": "https://github.com/mjlemay/wayside-shrines",
     "DisabledByDefault": false,
     "IncludesAssetPack": true,
     "Dependencies": {

@@ -10,11 +10,11 @@ import dev.hytalemodding.events.ExampleEvent;
 
 import javax.annotation.Nonnull;
 
-public class ExamplePlugin extends JavaPlugin {
+public class WaysideShrines extends JavaPlugin {
 
     private static Config<ExampleConfig> config = null;
 
-    public ExamplePlugin(@Nonnull JavaPluginInit init) {
+    public WaysideShrines(@Nonnull JavaPluginInit init) {
         super(init);
         config = this.withConfig("example_config", ExampleConfig.CODEC);
     }

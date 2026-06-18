@@ -1,0 +1,58 @@
+{
+  "TranslationProperties": {
+    "Name": "Offering Tray",
+    "Description": "A weathered presentation tray left by the roadside."
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "Icon": "Icons/ItemsGenerated/Offering_Tray.png",
+  "IconProperties": {
+    "Scale": 1.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -7,
+      -5
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "HitboxType": "Offering_Tray",
+    "CustomModel": "Blocks/Furniture/Offering_Tray.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/Offering_Tray.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Wood"
+      }
+    },
+    "BlockParticleSetId": "Grass",
+    "BlockSoundSetId": "Wood"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 1
+}

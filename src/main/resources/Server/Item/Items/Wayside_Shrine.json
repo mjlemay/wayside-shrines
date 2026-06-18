@@ -1,0 +1,58 @@
+{
+  "TranslationProperties": {
+    "Name": "Wayside Shrine",
+    "Description": "Travelers have stumbled upon these small weary shrines for ages. Their origin is unknown, but an aura of reverence surrounds them."
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "Icon": "Icons/ItemsGenerated/Wayside_Shrine.png",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "HitboxType": "Statue_Small",
+    "CustomModel": "Blocks/Furniture/Wayside_Shrine.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/Wayside_Shrine_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Wood"
+      }
+    },
+    "BlockParticleSetId": "Grass",
+    "BlockSoundSetId": "Wood"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 1,
+  "IconProperties": {
+    "Scale": 0.45,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      1,
+      -25
+    ]
+  }
+}
