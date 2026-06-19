@@ -1,0 +1,78 @@
+{
+  "TranslationProperties": {
+    "Name": "Stone Offering Tray",
+    "Description": "A stone block with an offering tray embedded inside it."
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Ores"
+  ],
+  "Icon": "Icons/ItemsGenerated/Stone_Offering_Tray.png",
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -7
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "CubeWithModel",
+    "Textures": [
+      {
+        "All": "BlockTextures/Rock_Stone.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "CustomModel": "Blocks/Furniture/Offering_Tray.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/Offering_Tray.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 2.05,
+    "RandomRotation": "YawStep90",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "DropList": {
+          "Container": {
+            "Type": "Multiple",
+            "Containers": [
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Offering_Tray"
+                }
+              },
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Rock_Stone_Cobble"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "BlockParticleSetId": "Ore",
+    "ParticleColor": "#d0d1c1",
+    "BlockSoundSetId": "Ore"
+  },
+  "Tags": {
+    "Type": [
+      "Ore"
+    ]
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

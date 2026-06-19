@@ -41,12 +41,14 @@
       ]
     },
     "Gathering": {
-      "Breaking": {
-        "GatherType": "Wood"
+      "Soft": {
+        "DropList": "Offering_Tray",
+        "IsWeaponBreakable": true
       }
     },
-    "BlockParticleSetId": "Grass",
-    "BlockSoundSetId": "Wood"
+    "BlockParticleSetId": "Clay",
+    "ParticleColor": "#864c36",
+    "BlockSoundSetId": "Clay_Pot_Small"
   },
   "Tags": {
     "Type": [
