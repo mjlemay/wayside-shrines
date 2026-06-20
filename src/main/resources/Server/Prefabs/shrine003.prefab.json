@@ -1,0 +1,637 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": -3,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Wet"
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "z": 3,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Wet"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 1,
+      "name": "Plant_Crop_Mushroom_Cap_Brown",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "7RgS5j+2Q7iGDrSXx3YJoA==",
+              "$type": "04"
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Wet"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 2,
+      "name": "Plant_Crop_Mushroom_Common_Brown",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "7RgS5j+2Q7iGDrSXx3YJoA==",
+              "$type": "04"
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "z": 3,
+      "name": "Plant_Crop_Mushroom_Cap_White",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "7RgS5j+2Q7iGDrSXx3YJoA==",
+              "$type": "04"
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Wet"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 2,
+      "name": "Plant_Crop_Mushroom_Cap_Brown",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "7RgS5j+2Q7iGDrSXx3YJoA==",
+              "$type": "04"
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 1,
+      "name": "Stone_Offering_Tray"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 2,
+      "name": "Wayside_Shrine",
+      "rotation": 2
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 2,
+      "name": "Wayside_Shrine",
+      "filler": 1024,
+      "rotation": 2
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Wet"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Dirt_Wet"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Wet"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 2,
+      "name": "Plant_Crop_Mushroom_Common_Brown",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "7RgS5j+2Q7iGDrSXx3YJoA==",
+              "$type": "04"
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Dirt_Wet"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "z": 3,
+      "name": "Plant_Crop_Mushroom_Cap_Brown",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "7RgS5j+2Q7iGDrSXx3YJoA==",
+              "$type": "04"
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 0,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Dirt_Wet"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 1,
+      "name": "Plant_Crop_Mushroom_Common_Brown",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "7RgS5j+2Q7iGDrSXx3YJoA==",
+              "$type": "04"
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Wet"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 2,
+      "name": "Plant_Crop_Mushroom_Shelve_Yellow"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 1,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 2,
+      "name": "Soil_Dirt_Wet"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "name": "Plant_Crop_Mushroom_Cap_Brown",
+      "components": {
+        "Components": {
+          "FarmingBlock": {
+            "LastTickGameTime": "0001-01-01T12:00:00Z"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "7RgS5j+2Q7iGDrSXx3YJoA==",
+              "$type": "04"
+            }
+          }
+        }
+      }
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "z": 3,
+      "name": "Soil_Leaves"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 3,
+      "name": "Empty"
+    }
+  ],
+  "entities": [
+    {
+      "Components": {
+        "Transform": {
+          "Position": {
+            "X": 0.5,
+            "Y": 0.5,
+            "Z": 1.5
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
+        "TriggerVolume": {
+          "Shape": {
+            "Type": "Box",
+            "Min": {
+              "X": -0.5,
+              "Y": -0.5,
+              "Z": -0.5
+            },
+            "Max": {
+              "X": 0.5,
+              "Y": 0.5,
+              "Z": 0.5
+            }
+          },
+          "Effects": [
+            {
+              "Type": "EntityEffect",
+              "Event": "BLOCK_PLACED",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "Effect": "Food_Health_Boost_Medium",
+              "Mode": "Apply",
+              "Duration": -1.0
+            }
+          ],
+          "Conditions": [
+            {
+              "Type": "BlockTypeCondition",
+              "Event": "BLOCK_PLACED",
+              "BlockType": [
+                "Plant_Crop_Mushroom_Block_White"
+              ]
+            }
+          ],
+          "Enabled": true,
+          "TargetTypes": [
+            "Player"
+          ],
+          "KeepLoaded": false,
+          "PrefabIndex": 0
+        }
+      }
+    }
+  ]
+}

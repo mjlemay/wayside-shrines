@@ -1,0 +1,32 @@
+{
+  "Target": {
+    "Root": "Default",
+    "Rules": [
+      "Zones.Zone1_Tier1.*Plains_Birch*"
+    ]
+  },
+  "Operations": [
+    {
+      "Type": "Add",
+      "Content": {
+        "Type": "BiomePrefab",
+        "Prefabs": [
+          {
+            "Path": "Shrines.*",
+            "Weight": 1
+          }
+        ],
+        "PointGrid": {
+          "Seed": "Wayside-Shrines",
+          "Scale": 0.03,
+          "Jitter": 1,
+          "Density": {
+            "Min": 0.0,
+            "Max": 0.1
+          }
+        },
+        "FitHeightmap": true
+      }
+    }
+  ]
+}
