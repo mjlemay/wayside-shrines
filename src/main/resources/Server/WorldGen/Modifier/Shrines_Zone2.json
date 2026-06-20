@@ -1,0 +1,32 @@
+{
+  "Target": {
+    "Root": "Default",
+    "Rules": [
+      "Zones.Zone2_Tier3.Tile.Desert_Barren"
+    ]
+  },
+  "Operations": [
+    {
+      "Type": "Add",
+      "Content": {
+        "Type": "BiomePrefab",
+        "Prefabs": [
+          {
+            "Path": "Shrines.Zone2.*",
+            "Weight": 1
+          }
+        ],
+        "PointGrid": {
+          "Seed": "Wayside-Shrines-Zone2",
+          "Scale": 96,
+          "Jitter": 0.75,
+          "Density": {
+            "Min": 0.0,
+            "Max": 0.3
+          }
+        },
+        "FitHeightmap": true
+      }
+    }
+  ]
+}

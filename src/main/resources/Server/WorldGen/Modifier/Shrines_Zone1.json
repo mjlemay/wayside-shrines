@@ -1,0 +1,32 @@
+{
+  "Target": {
+    "Root": "Default",
+    "Rules": [
+      "Zones.Zone1_Tier1.Tile.Plains_Smooth"
+    ]
+  },
+  "Operations": [
+    {
+      "Type": "Add",
+      "Content": {
+        "Type": "BiomePrefab",
+        "Prefabs": [
+          {
+            "Path": "Shrines.Zone1.*",
+            "Weight": 1
+          }
+        ],
+        "PointGrid": {
+          "Seed": "Wayside-Shrines-Zone1",
+          "Scale": 96,
+          "Jitter": 0.75,
+          "Density": {
+            "Min": 0.0,
+            "Max": 0.3
+          }
+        },
+        "FitHeightmap": true
+      }
+    }
+  ]
+}

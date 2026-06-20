@@ -2,7 +2,7 @@
   "Target": {
     "Root": "Default",
     "Rules": [
-      "Zones.Zone1_Tier1.*Plains_Birch*"
+      "Zones.Zone4_Tier5.Tile.Wastes_Ash"
     ]
   },
   "Operations": [
@@ -12,17 +12,17 @@
         "Type": "BiomePrefab",
         "Prefabs": [
           {
-            "Path": "Shrines.*",
+            "Path": "Shrines.Zone4.*",
             "Weight": 1
           }
         ],
         "PointGrid": {
-          "Seed": "Wayside-Shrines",
-          "Scale": 0.03,
-          "Jitter": 1,
+          "Seed": "Wayside-Shrines-Zone4",
+          "Scale": 96,
+          "Jitter": 0.75,
           "Density": {
             "Min": 0.0,
-            "Max": 0.1
+            "Max": 0.3
           }
         },
         "FitHeightmap": true
