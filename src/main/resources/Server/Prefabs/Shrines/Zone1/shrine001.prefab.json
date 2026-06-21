@@ -232,17 +232,6 @@
               "BlockType": [
                 "Plant_Fruit_Apple"
               ]
-            },
-            {
-              "Type": "TagCondition",
-              "Event": "BLOCK_PLACED",
-              "Source": "Self",
-              "TagKey": "isOffered",
-              "TagValue": "",
-              "MatchKey": "",
-              "MatchValue": "",
-              "Radius": 50.0,
-              "Center": "Volume"
             }
           ],
           "Enabled": true,

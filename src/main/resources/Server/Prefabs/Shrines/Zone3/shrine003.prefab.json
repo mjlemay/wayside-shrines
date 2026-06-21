@@ -149,20 +149,7 @@
       "x": -2,
       "y": 0,
       "z": 3,
-      "name": "Plant_Crop_Mushroom_Cap_White",
-      "components": {
-        "Components": {
-          "FarmingBlock": {
-            "LastTickGameTime": "0001-01-01T12:00:00Z"
-          },
-          "PlacedByInteraction": {
-            "WhoPlacedUuid": {
-              "$binary": "7RgS5j+2Q7iGDrSXx3YJoA==",
-              "$type": "04"
-            }
-          }
-        }
-      }
+      "name": "Plant_Crop_Onion_Item"
     },
     {
       "x": -2,
@@ -610,7 +597,7 @@
               "Event": "BLOCK_PLACED",
               "Interval": 0.0,
               "Delay": 0.0,
-              "Effect": "Food_Health_Boost_Medium",
+              "Effect": "Food_Health_Regen_Medium",
               "Mode": "Apply",
               "Duration": -1.0
             }
@@ -620,7 +607,8 @@
               "Type": "BlockTypeCondition",
               "Event": "BLOCK_PLACED",
               "BlockType": [
-                "Plant_Crop_Mushroom_Block_White"
+                "Plant_Crop_Onion_Item",
+                "Plant_Crop_Onion_Block"
               ]
             }
           ],
