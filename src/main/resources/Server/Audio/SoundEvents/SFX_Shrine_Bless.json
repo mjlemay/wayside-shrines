@@ -1,0 +1,14 @@
+{
+  "Layers": [
+    {
+      "Files": [ "Sounds/Shrines/shrine_bless.ogg" ],
+      "Volume": 6.0,
+      "RandomSettings": { "MinPitch": -1, "MaxPitch": 1, "MinVolume": 0 }
+    }
+  ],
+  "Volume": 0,
+  "MaxDistance": 25,
+  "StartAttenuationDistance": 4,
+  "SpatialBlend": 1.0,
+  "AudioCategory": "AudioCat_Discovery"
+}

@@ -600,6 +600,26 @@
               "Effect": "Food_Health_Regen_Medium",
               "Mode": "Apply",
               "Duration": -1.0
+            },
+            {
+              "Type": "PlaySound",
+              "Event": "BLOCK_PLACED",
+              "SoundEvent": "SFX_Shrine_Bless",
+              "Volume": 1.0,
+              "Pitch": 1.0
+            },
+            {
+              "Type": "PlayVfx",
+              "Event": "BLOCK_PLACED",
+              "ParticleSystem": "Aura_Heal",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.5,
+                "Z": 0.0
+              },
+              "AtEntity": false,
+              "Scale": 1.0,
+              "Duration": 2.0
             }
           ],
           "Conditions": [
