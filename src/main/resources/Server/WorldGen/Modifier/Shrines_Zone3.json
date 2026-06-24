@@ -22,10 +22,14 @@
           "Jitter": 0.75,
           "Density": {
             "Min": 0.0,
-            "Max": 0.3
+            "Max": 0.45
           }
         },
-        "FitHeightmap": true
+        "FitHeightmap": false,
+        "OffsetY": 1,
+        "BaseChecks": [
+          { "PrefabSize": 1, "BaseScale": 1.0, "HeightTolerance": 1 }
+        ]
       }
     }
   ]

@@ -327,6 +327,222 @@
       "y": 0,
       "z": 3,
       "name": "Empty"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": 1,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -2,
+      "y": -3,
+      "z": 1,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": 2,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -2,
+      "y": -3,
+      "z": 2,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "z": 3,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -2,
+      "y": -3,
+      "z": 3,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": 0,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -1,
+      "y": -3,
+      "z": 0,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": 1,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -1,
+      "y": -3,
+      "z": 1,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": 2,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -1,
+      "y": -3,
+      "z": 2,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "z": 3,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": -1,
+      "y": -3,
+      "z": 3,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": 0,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 0,
+      "y": -3,
+      "z": 0,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": 1,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 0,
+      "y": -3,
+      "z": 1,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": 2,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 0,
+      "y": -3,
+      "z": 2,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "z": 3,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 0,
+      "y": -3,
+      "z": 3,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": 0,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 1,
+      "y": -3,
+      "z": 0,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": 1,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 1,
+      "y": -3,
+      "z": 1,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": 2,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 1,
+      "y": -3,
+      "z": 2,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "z": 3,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 1,
+      "y": -3,
+      "z": 3,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": 1,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 2,
+      "y": -3,
+      "z": 1,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": 2,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 2,
+      "y": -3,
+      "z": 2,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "z": 3,
+      "name": "Soil_Ash"
+    },
+    {
+      "x": 2,
+      "y": -3,
+      "z": 3,
+      "name": "Soil_Ash"
     }
   ],
   "entities": [
