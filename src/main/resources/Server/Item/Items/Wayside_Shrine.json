@@ -29,8 +29,22 @@
       ]
     },
     "Gathering": {
-      "Breaking": {
-        "GatherType": "Wood"
+      "Soft": {
+        "DropList": {
+          "Container": {
+            "Type": "Multiple",
+            "Containers": [
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Wayside_Shrine",
+                  "QuantityMin": 1,
+                  "QuantityMax": 1
+                }
+              }
+            ]
+          }
+        }
       }
     },
     "BlockParticleSetId": "Grass",
