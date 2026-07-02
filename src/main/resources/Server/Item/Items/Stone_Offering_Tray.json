@@ -30,14 +30,14 @@
       }
     ],
     "Group": "Stone",
-    "CustomModel": "Blocks/Furniture/Offering_Tray.blockymodel",
+    "CustomModel": "Blocks/Furniture/Large_Offering_Tray.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Furniture/Offering_Tray.png",
+        "Texture": "Blocks/Furniture/Large_Offering_Tray.png",
         "Weight": 1
       }
     ],
-    "CustomModelScale": 2.05,
+    "CustomModelScale": 1.1,
     "RandomRotation": "YawStep90",
     "Flags": {},
     "Gathering": {

@@ -9,7 +9,7 @@
   ],
   "Icon": "Icons/ItemsGenerated/Offering_Tray.png",
   "IconProperties": {
-    "Scale": 1.4,
+    "Scale": 1,
     "Rotation": [
       22.5,
       45,
@@ -24,11 +24,10 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "HitboxType": "Offering_Tray",
-    "CustomModel": "Blocks/Furniture/Offering_Tray.blockymodel",
+    "CustomModel": "Blocks/Furniture/Large_Offering_Tray.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Furniture/Offering_Tray.png",
+        "Texture": "Blocks/Furniture/Large_Offering_Tray.png",
         "Weight": 1
       }
     ],
