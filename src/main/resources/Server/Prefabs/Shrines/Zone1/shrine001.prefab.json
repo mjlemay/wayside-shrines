@@ -351,6 +351,15 @@
               "AtEntity": false,
               "Scale": 1.0,
               "Duration": 2.0
+            },
+            {
+              "Type": "ReplaceBlockType",
+              "Event": "BLOCK_PLACED",
+              "Delay": 120.0,
+              "FromBlockTypes": [
+                "Plant_Fruit_Apple"
+              ],
+              "ToBlockType": "Empty"
             }
           ],
           "Conditions": [
@@ -368,6 +377,78 @@
           ],
           "KeepLoaded": false,
           "PrefabIndex": 0
+        }
+      }
+    },
+    {
+      "Components": {
+        "Transform": {
+          "Position": {
+            "X": -0.5,
+            "Y": 1.5,
+            "Z": -0.5
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
+        "TriggerVolume": {
+          "Shape": {
+            "Type": "Box",
+            "Min": {
+              "X": -3.0,
+              "Y": -2.0,
+              "Z": -3.0
+            },
+            "Max": {
+              "X": 3.0,
+              "Y": 2.0,
+              "Z": 3.0
+            }
+          },
+          "Effects": [
+            {
+              "Type": "PlaceBlock",
+              "Event": "ENTER",
+              "BlockType": "Plant_Fruit_Apple",
+              "Origin": "VolumeOrigin",
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ReplaceMode": "OnlyAir"
+            },
+            {
+              "Type": "PlayVfx",
+              "Event": "ENTER",
+              "ParticleSystem": "Aura_Heal",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.5,
+                "Z": 0.0
+              },
+              "AtEntity": false,
+              "Scale": 1.0,
+              "Duration": 2.0
+            }
+          ],
+          "Conditions": [
+            {
+              "Type": "CooldownCondition",
+              "Event": "ENTER",
+              "Cooldown": 600.0,
+              "Scope": "WHOLE_VOLUME"
+            }
+          ],
+          "Enabled": true,
+          "TargetTypes": [
+            "Player"
+          ],
+          "KeepLoaded": false,
+          "PrefabIndex": 1
         }
       }
     }

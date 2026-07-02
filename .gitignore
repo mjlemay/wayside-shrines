@@ -13,3 +13,6 @@ run/
 .DS_Store
 deploy.sh
 docs/
+
+# Prefab editor caches (regenerated from the .prefab.json source)
+*.lpf

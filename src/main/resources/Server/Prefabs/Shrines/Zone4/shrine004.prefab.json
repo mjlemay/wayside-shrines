@@ -262,12 +262,6 @@
     },
     {
       "x": 1,
-      "y": 0,
-      "z": 3,
-      "name": "Furniture_Ancient_Barrel"
-    },
-    {
-      "x": 1,
       "y": 1,
       "z": 3,
       "name": "Empty"
@@ -298,32 +292,6 @@
     },
     {
       "x": 2,
-      "y": -1,
-      "z": 3,
-      "name": "Furniture_Ancient_Chest_Small",
-      "components": {
-        "Components": {
-          "ItemContainerBlock": {
-            "ItemContainer": {
-              "Capacity": 18,
-              "Items": {
-                "0": {
-                  "Id": "Plant_Fruit_Spiral",
-                  "Quantity": 1,
-                  "Durability": 0.0,
-                  "MaxDurability": 0.0,
-                  "OverrideDroppedItemAnimation": false
-                }
-              }
-            },
-            "Capacity": 18
-          }
-        }
-      },
-      "rotation": 2
-    },
-    {
-      "x": 2,
       "y": 0,
       "z": 3,
       "name": "Empty"
@@ -543,6 +511,13 @@
       "y": -3,
       "z": 3,
       "name": "Soil_Ash"
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "z": 3,
+      "name": "Offering_Barrel",
+      "rotation": 0
     }
   ],
   "entities": [
@@ -603,6 +578,15 @@
               "AtEntity": false,
               "Scale": 1.0,
               "Duration": 2.0
+            },
+            {
+              "Type": "ReplaceBlockType",
+              "Event": "BLOCK_PLACED",
+              "Delay": 120.0,
+              "FromBlockTypes": [
+                "Plant_Fruit_Spiral"
+              ],
+              "ToBlockType": "Empty"
             }
           ],
           "Conditions": [
@@ -620,6 +604,78 @@
           ],
           "KeepLoaded": false,
           "PrefabIndex": 0
+        }
+      }
+    },
+    {
+      "Components": {
+        "Transform": {
+          "Position": {
+            "X": 2.5,
+            "Y": -0.5,
+            "Z": 3.5
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
+        "TriggerVolume": {
+          "Shape": {
+            "Type": "Box",
+            "Min": {
+              "X": -3.0,
+              "Y": -2.0,
+              "Z": -3.0
+            },
+            "Max": {
+              "X": 3.0,
+              "Y": 2.0,
+              "Z": 3.0
+            }
+          },
+          "Effects": [
+            {
+              "Type": "PlaceBlock",
+              "Event": "ENTER",
+              "BlockType": "Offering_Barrel",
+              "Origin": "VolumeOrigin",
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ReplaceMode": "OnlyAir"
+            },
+            {
+              "Type": "PlayVfx",
+              "Event": "ENTER",
+              "ParticleSystem": "Aura_Heal",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.5,
+                "Z": 0.0
+              },
+              "AtEntity": false,
+              "Scale": 1.0,
+              "Duration": 2.0
+            }
+          ],
+          "Conditions": [
+            {
+              "Type": "CooldownCondition",
+              "Event": "ENTER",
+              "Cooldown": 600.0,
+              "Scope": "WHOLE_VOLUME"
+            }
+          ],
+          "Enabled": true,
+          "TargetTypes": [
+            "Player"
+          ],
+          "KeepLoaded": false,
+          "PrefabIndex": 1
         }
       }
     }

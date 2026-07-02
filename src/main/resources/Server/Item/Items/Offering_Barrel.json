@@ -1,0 +1,76 @@
+{
+  "TranslationProperties": {
+    "Name": "Offering Barrel",
+    "Description": "An ancient barrel that yields an offering when broken."
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "Icon": "Icons/ItemsGenerated/Furniture_Ancient_Barrel.png",
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "CustomModel": "Blocks/Decorative_Sets/Village/Barrel.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Village/Barrel_Ancient.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Gathering": {
+      "Soft": {
+        "DropList": {
+          "Container": {
+            "Type": "Multiple",
+            "Containers": [
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Plant_Fruit_Spiral",
+                  "QuantityMin": 1,
+                  "QuantityMax": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "HitboxType": "Chest_Small",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#4e462c",
+    "RandomRotation": "YawStep1",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        },
+        {
+          "FaceType": "Barrel"
+        }
+      ]
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Barrel"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "TextureComputedColor": "#3B3326"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Ancient"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 1
+}
