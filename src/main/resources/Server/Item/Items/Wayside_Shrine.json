@@ -29,7 +29,8 @@
       ]
     },
     "Gathering": {
-      "Soft": {
+      "Breaking": {
+        "GatherType": "Woods",
         "DropList": {
           "Container": {
             "Type": "Multiple",

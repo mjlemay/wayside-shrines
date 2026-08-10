@@ -40,9 +40,9 @@
       ]
     },
     "Gathering": {
-      "Soft": {
-        "DropList": "Offering_Tray",
-        "IsWeaponBreakable": true
+      "Breaking": {
+        "GatherType": "Woods",
+        "DropList": "Offering_Tray"
       }
     },
     "BlockParticleSetId": "Clay",
