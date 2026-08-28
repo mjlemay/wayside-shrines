@@ -1,7 +1,7 @@
 {
     "Group": "Mertie",
     "Name": "Wayside Shrines",
-    "Version": "0.0.3",
+    "Version": "0.0.4",
     "Description": "Little shrines to help you on your travels.",
     "Authors": [
         {
@@ -19,7 +19,7 @@
     "OptionalDependencies": {
         
     },
-    "ServerVersion": ">=0.5.3 <0.6.0",
+    "ServerVersion": ">=0.5.3 <0.7.0",
     "Main": "dev.hytalemodding.WaysideShrines",
     "UpdateChecker": {
         "CurseForge": ""
